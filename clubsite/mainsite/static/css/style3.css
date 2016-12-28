@@ -1,0 +1,224 @@
+/*
+Copyright (c) 2016 teqbees.
+------------------------------------------------------------------
+[color Stylesheet]
+Template Name: Infinity HTML Template
+Version: 1.0
+Author: teqbees
+Website: http://teqbees.com/
+Purchase: http://themeforest.net/user/teqbees
+-------------------------------------------------------------------*/
+/*
+-------------------------------------------------------------------
+[Table of contents]
+1.Body css
+2.common css
+3.slider css
+4.header css
+5.home section css
+6.about section css
+7.middle banner css
+8.portfolio css
+10.feature css
+11.team section css
+12.blog css
+13.pricing table css
+14.testimonial css
+15.twitter section css
+16.contact form css
+17.map section css
+18.footer section css 
+------------------------------------------------------------------*/
+/*------------------------------ 2.common css Start--------------------------*/
+.heading_middle h2 span{
+	color: #ec9005;
+}
+.heading_middle h2:before {
+    background-color: #ec9005;
+}
+.triangle_btn {
+    background-color: #ec9005;
+}
+.triangle_btn:after {
+    border-left: 12px solid #ec9005;
+}
+.triangle_btn:before {
+    border-right: 12px solid #ec9005;
+}
+.triangle_btn:hover{
+	color:#ec9005;
+}
+/* contact form placehold */
+/*------------------------------ 2.common css End--------------------------*/
+/*------------------------------ 3.slider css End--------------------------*/
+.home_slider .slider_navs div {
+    color: #ec9005;
+}
+.home_slider .slider_navs div:hover{
+	background-color:#ec9005;
+}
+/*------------------------------ 3.slider css End--------------------------*/
+/*------------------------------ 4.header css Start--------------------------*/
+.nav_toggle span {
+    background-color:#ec9005;
+}
+.in_navigation ul.menu > li a.active, 
+.in_navigation ul.menu > li a:focus, 
+.in_navigation ul.menu > li a:hover{
+	color:#fefcfc;
+	background-color:#ec9005
+}
+/*---- submenu level 2 css Start -----*/
+.in_navigation ul.menu > li > ul {
+    border-bottom: 3px solid #ec9005;
+}
+/*---- submenu level 2 css End -----*/
+/*------------------------------ 4.header css End--------------------------*/
+/*------------------------------ 5.home section css Start--------------------------*/
+.in_home_Section{
+	background-color:#ec9005;
+}
+/*------------------------------ 5.home section css End--------------------------*/
+/*------------------------------ 6.about section css Start--------------------------*/
+/* about skills css start */
+.skill_line {
+    background-color: #ec9005;
+}
+.skill_line > .triangle {
+    border-bottom: 21px solid #ec9005;
+} 
+/* about skills css start */
+/*------------------------------ 6.about section css End--------------------------*/
+/*------------------------------ 7.middle banner css Start--------------------------*/
+/*------------------------------ 7.middle banner css End--------------------------*/
+/*------------------------------ 8.portfolio css Start--------------------------*/
+.portfolio_wrap_inner{
+	background-color:#ec9005;
+}
+.in_portfolio_wrap > ul > li a:hover, 
+.in_portfolio_wrap > ul > li a.active{
+	color:#ec9005;
+}
+.portfolio_box {
+    background-color: #ec9005;
+}
+/*------------------------------ 8.portfolio css End--------------------------*/
+/*------------------------------ 9.statistic css Srart--------------------------*/
+.hexa_icon {
+    background-color: #ec9005;
+}
+.hexa_icon:before{
+	border-right: 44px solid #ec9005;
+}
+.hexa_icon:after{
+	border-left: 44px solid #ec9005;
+}
+.hexa_inner i {
+    color: #ec9005;
+}
+.hexa_inner:hover{
+	background-color:#ec9005;
+}
+.hexa_inner:hover:before{
+	border-right: 43px solid #ec9005;
+}
+.hexa_inner:hover:after{
+	border-left: 43px solid #ec9005;
+}
+/*------------------------------ 9.statistic css End--------------------------*/
+/*------------------------------ 10.feature css Start--------------------------*/
+.in_feature_Section .overlay_color:after{
+	background-color:#ec9005;
+}
+/*------------------------------ 10.feature css End--------------------------*/
+/*------------------------------ 11.team section css Start--------------------------*/
+.team_crousel .owl-nav div {
+    background-color: #ec9005;
+}
+/*------------------------------ 11.team section css End--------------------------*/
+/*------------------------------ 12.team details css Start--------------------------*/
+.in_team_details{
+	background-color:#ec9005;
+}
+.social_icons a {
+    color: #ec9005;
+}
+/*------------------------------ 12.team details css End--------------------------*/
+/*------------------------------ 12.blog css Start--------------------------*/
+.in_blog_Section{
+}
+.home_blog{
+	background: #ec9005;
+}
+/*--- blog banner css Start ---*/
+.read_m_btn{
+    color: #ec9005;
+}
+/*--- blog banner css End ---*/
+/*--- blog sidebar css Start ---*/
+.in_search_form button {
+    background: #ec9005;
+}
+/*--- blog sidebar css End ---*/
+/*------------------------------ 12.blog css End--------------------------*/
+/*------------------------------ 13.pricing table css Start--------------------------*/
+.pricing_tbl_box:after {
+    background-color: #ec9005;
+}
+.pricing_tbl_box:hover .triangle_btn{
+	color:#ec9005;
+	background-color:#ffffff;
+}
+.pricing_tbl_box .icon_circle{
+	color: #ec9005;
+}
+.pricing_inner h2 {
+    border-bottom: 3px solid #ec9005;
+}
+/*------------------------------ 13.pricing table css End--------------------------*/
+/*------------------------------ 14.testimonial css Start--------------------------*/
+.test_details {
+    background-color: #ec9005;
+}
+.test_details:before {
+    border-right: 30px solid #ec9005;
+}
+/*------------------------------ 14.testimonial css End--------------------------*/
+/*------------------------------ 15.twitter section css Start--------------------------*/
+.twitter_wrap .twitter_icon{
+	background-color:#ec9005;
+}
+.twitter_wrap h2 span{
+	color:#ec9005;
+}
+/*------------------------------ 15.twitter section css End--------------------------*/
+/*------------------------------ 16.contact form css Start--------------------------*/
+.contact_form_wrap .cont_send {
+    background-color: #ec9005;
+}
+/*------------------------------ 16.contact form css End--------------------------*/
+/*------------------------------ 17.map section css Start--------------------------*/
+.location_map .find_btn {
+    background-color: #ec9005;
+}
+#big_googleMap {
+    width: 100%;
+    height: 500px;
+}
+/*------------------------------ 17.map section css End--------------------------*/
+/*------------------------------ 18.footer section css Start--------------------------*/
+.footer_wrap .social_icons a{
+	background-color:#ec9005;    
+	color: #ffffff;
+}
+.footer_wrap .social_icons a:before {
+    border-right: 12px solid #ec9005;
+}
+.footer_wrap .social_icons a:after{
+    border-left: 12px solid #ec9005;
+}
+.footer_wrap .copy_right_text a{
+	color:#ec9005;
+	text-decoration:none;
+}
+/*------------------------------ 18.footer section css End--------------------------*/

@@ -1,0 +1,28 @@
+{% load staticfiles %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python Club | Blog </title>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-theme.min.css' %}">
+</head>
+<body>
+    <div class="content	container">
+        <div class="row">
+            <div class="col-md-8">
+                {% for	post in posts %}
+                   <div class="post">
+                       <div class="date">
+                           <p>published: {{ post.published_date	}}</p>
+                       </div>
+                       <h1><a	href="">{{ post.title }}</a></h1>
+                       <p>{{ post.text|linebreaksbr }}</p>
+                   </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

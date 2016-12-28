@@ -1,0 +1,59 @@
+/*
+Copyright (c) 2016 teqbees.
+------------------------------------------------------------------
+[Fonts Stylesheet]
+
+Template Name: Infinity HTML Template
+Version: 1.0
+Author: teqbees
+Website: http://teqbees.com/
+Purchase: http://themeforest.net/user/teqbees
+-------------------------------------------------------------------*/
+/* open sans font start */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Open Sans Light'), local('OpenSans-Light'), 
+	url(../fonts/Open_Sans/OpenSans-Light.html) format('woff2'),
+	url(../fonts/Open_Sans/OpenSans-Light.woff) format('woff'),
+	url(../fonts/Open_Sans/OpenSans-Light.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), 
+	url(../fonts/Open_Sans/OpenSans-Regular.html) format('woff2'),
+	url(../fonts/Open_Sans/OpenSans-Regular.woff) format('woff'),
+	url(../fonts/Open_Sans/OpenSans-Regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Open Sans Semibold'), local('OpenSans-Semibold'), 
+	url(../fonts/Open_Sans/OpenSans-Semibold.html) format('woff2'),
+	url(../fonts/Open_Sans/OpenSans-Semibold-2.html) format('woff'),
+	url(../fonts/Open_Sans/OpenSans-Semibold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Open Sans Bold'), local('OpenSans-Bold'), 
+	url(../fonts/Open_Sans/OpenSans-Bold.html) format('woff2'),
+	url(../fonts/Open_Sans/OpenSans-Bold-2.html) format('woff'),
+	url(../fonts/Open_Sans/OpenSans-Bold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
+	src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), 
+	url(../fonts/Open_Sans/OpenSans-ExtraBold.html) format('woff2'),
+	url(../fonts/Open_Sans/OpenSans-ExtraBold-2.html) format('woff'),
+	url(../fonts/Open_Sans/OpenSans-ExtraBold.ttf) format('truetype');
+}
+
+/* open sans font end */nd */
